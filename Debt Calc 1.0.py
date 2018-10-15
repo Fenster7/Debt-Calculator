@@ -40,7 +40,7 @@ else:
     else:
         income = int(input("How much are you putting towards your debt every month?"))
 
-        months_paying = total_debt / income
+        months_paying = int(total_debt / income)
 
 # Grabbing current month/year to be used later
 current_year = datetime.date.today().year
